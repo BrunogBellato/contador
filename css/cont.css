@@ -1,0 +1,93 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../img/magic4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+    flex-direction: column;
+    background-color: #1d1d1d;
+    height: 100vh;
+    width: 100%;
+    padding-bottom: 0;
+}
+
+.fundo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 97.5%;
+    height: 100%;
+    box-shadow: 0 50px 100px  #1d1d1d;
+    background-color: #0c0c0c57;
+    backdrop-filter: blur(8px);
+    /* -webkit-backdrop-filter: blur(12px); */
+    padding: 2rem;
+    /* border-radius: 25px; */
+    
+    
+}
+
+.img{
+    width: 35rem; 
+    padding: 5rem;
+    filter: drop-shadow( 0px 10px 6px #fff);
+}
+
+.cont{
+    display: flex;  
+}
+
+.ali{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.count-button{
+    width: 8rem;
+    height: 5rem;
+    border-radius: 25px;
+    border: none;
+    font-size: 3rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.count-button:hover{
+    background-color: #1d1d1d;
+    color: white;
+}
+
+#j1, #j2{
+    color: white;
+    font-size: 6rem;
+    font-weight: bold;   
+}
+
+#btnr{
+    width: 15rem;
+    background-color: #1d1d1d;
+    color: white;
+}
+
+#btnr:hover{
+    width: 15rem;
+    background-color: #fff;
+    color: #1d1d1d;
+}
+
+h2{
+    color: white;
+    font-size: 4rem;
+}
